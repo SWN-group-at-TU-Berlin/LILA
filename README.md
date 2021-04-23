@@ -1,5 +1,5 @@
 # LILA
-A high-resolution pressure-driven Leakage Identification and Localization Algorithm
+A high-resolution pressure-driven Leakage Identification and Localization Algorithm.  
 This repository contains the **identification part** of LILA.
 
 ### Underlying work
