@@ -1,5 +1,5 @@
 # LILA
-A high-resolution pressure-driven Leakage Identification and Localization Algorithm.  
+A high-resolution pressure-driven Leakage Identification and Localization Algorithm
 This repository contains the **identification part** of LILA.
 
 ### Underlying work
@@ -14,7 +14,7 @@ LILA operates in a sequential way, represented in the following flowchart:
 ![flowchart](LILA_flowchart.png)
 *source: underlying work (see section above)*
 
-First, the notebook in the folder 'LI1_LI2' performs linear regression and provides the error trajectories, then the notebook in 'LI3' performs change point detection to provide the starting times of the leaks.
+For leakage identification, the notebook in the folder 'LI' performs linear regression analysis and change point detection to provide the starting times of the leaks, and also provides the error trajectories,.
 
 The further work performing localization is available at:
 https://github.com/jorgeps86/LeakLocalization
