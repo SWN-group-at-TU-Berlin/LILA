@@ -1,9 +1,13 @@
-# LILA
-A high-resolution pressure-driven Leakage Identification and Localization Algorithm
-This repository contains the **identification part** of LILA.
+# LILA - A high-resolution pressure-driven Leakage Identification and Localization Algorithm
+This repository contains the **Leakage Identification part** of LILA.
 
-### Underlying work
-Daniel et al. (2021) "LILA: a high-resolution pressure-driven algorithm for leakage identification and localization in water distribution networks." *Journal of Water Resources Planning and Management* (submitted)
+### Citation
+If you use LILA, please consider citing our paper that describes it: 
+```
+Daniel et al. (forthcoming) "A sequential pressure-based algorithm for data-driven Leakage 
+Identification and model-based Localization in water distribution networks" Journal of Water 
+Resources Planning and Management.
+```
 
 ### Authors
 - [Ivo Daniel](https://www.swn.tu-berlin.de/menue/team/msc_ivo_daniel/), [Andrea Cominola](https://www.swn.tu-berlin.de/menue/team/prof_dr_andrea_cominola/) - [Chair of Smart Water Networks](https://swn.tu-berlin.de) at [Technische Universität Berlin](https://tu.berlin) and [Einstein Center Digital Future, Berlin](https://digital-future.berlin)  
