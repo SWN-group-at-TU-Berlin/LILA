@@ -4,9 +4,7 @@ This repository contains the **Leakage Identification part** of LILA.
 ### Citation
 If you use LILA, please consider citing our paper that describes it: 
 ```
-Daniel et al. (forthcoming) "A sequential pressure-based algorithm for data-driven Leakage 
-Identification and model-based Localization in water distribution networks" Journal of Water 
-Resources Planning and Management.
+Daniel et al. (forthcoming) "A sequential pressure-based algorithm for data-driven Leakage Identification and model-based Localization in water distribution networks" Journal of Water Resources Planning and Management.
 ```
 
 ### Authors
