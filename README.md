@@ -6,6 +6,7 @@ If you use LILA, please consider citing our paper that describes it:
 ```
 Daniel et al. (forthcoming) "A sequential pressure-based algorithm for data-driven Leakage Identification 
 and model-based Localization in water distribution networks" Journal of Water Resources Planning and Management.
+DOI:10.1061/(ASCE)WR.1943-5452.0001535
 ```
 
 ### Authors
