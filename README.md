@@ -8,7 +8,6 @@ Daniel et al. (forthcoming) "A sequential pressure-based algorithm for data-driv
 and model-based Localization in water distribution networks" Journal of Water Resources Planning and Management.
 DOI:10.1061/(ASCE)WR.1943-5452.0001535
 ```
-
 ### Authors
 - [Ivo Daniel](https://www.swn.tu-berlin.de/menue/team/msc_ivo_daniel/), [Andrea Cominola](https://www.swn.tu-berlin.de/menue/team/prof_dr_andrea_cominola/) - [Chair of Smart Water Networks](https://swn.tu-berlin.de) at [Technische Universität Berlin](https://tu.berlin) and [Einstein Center Digital Future, Berlin](https://digital-future.berlin)  
 - Simon Letzgus - [Machine Learning group](https://www.ml.tu-berlin.de/menue/machine_learning/) at [Technische Universität Berlin](https://tu.berlin)
