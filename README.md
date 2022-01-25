@@ -1,4 +1,4 @@
-# LILA - A high-resolution pressure-driven Leakage Identification and Localization Algorithm
+# LILA - the sequential pressure-based algorithm for data-driven Leakage Identification and model-based Localization
 This repository contains the Leakage Identification part of **LILA - the sequential pressure-based algorithm for data-driven Leakage Identification 
 and model-based Localization in water distribution networks**. LILA identifies potential leakages via semisupervised linear regression of pairwise sensor pressure data and provides the location of theis nearest sensor. LILA also locates leaky pipes relying on an initial set of candidate pipes and a simulation-based optimization framework with iterative linear and mixed-integer linear programming.
 
