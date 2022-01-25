@@ -42,7 +42,9 @@ DOI:10.1061/(ASCE)WR.1943-5452.0001535
 ```
 LILA derives from an initial version of the algorithm presented in [Daniel et al. (2020)](https://doi.org/10.5281/zenodo.3924632) and used during the BattLeDIM competition:
 ```
-Danieil, Ivo, Pesantez, Jorge, Letzgus, Simon, Khaksar Fasaee, Mohammad Ali, Alghamdi, Faisal, Mahinthajkumar, Kumar, Berglund, Emily, & Cominola, Andrea. (2020). A high-resolution pressure-driven method for leakage identification and localization in water distribution networks. Zenodo. https://doi.org/10.5281/zenodo.3924632 
+Danieil, Ivo, Pesantez, Jorge, Letzgus, Simon, Khaksar Fasaee, Mohammad Ali, Alghamdi, Faisal, Mahinthajkumar, Kumar, 
+Berglund, Emily, & Cominola, Andrea. (2020). A high-resolution pressure-driven method for leakage identification and 
+localization in water distribution networks. Zenodo. https://doi.org/10.5281/zenodo.3924632 
 ```
 
 ### LICENSE
