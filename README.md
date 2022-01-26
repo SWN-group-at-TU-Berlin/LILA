@@ -1,11 +1,11 @@
 # LILA - the sequential pressure-based algorithm for data-driven Leakage Identification and model-based Localization
-This repository contains the Leakage Identification part of **LILA - the sequential pressure-based algorithm for data-driven Leakage Identification 
+This repository contains the Leakage Identification part of **LILA - the sequential pressure-based algorithm for data-driven Leakage Identification
 and model-based Localization in water distribution networks**. LILA identifies potential leakages via semisupervised linear regression of pairwise sensor pressure data and provides the location of theis nearest sensor. LILA also locates leaky pipes relying on an initial set of candidate pipes and a simulation-based optimization framework with iterative linear and mixed-integer linear programming.
 
 ### Citation
-If you use LILA or part of its code, please consider citing our paper that describes it: 
+If you use LILA or part of its code, please consider citing our paper that describes it:
 ```
-Daniel et al. (forthcoming) "A sequential pressure-based algorithm for data-driven Leakage Identification 
+Daniel et al. (forthcoming) "A sequential pressure-based algorithm for data-driven Leakage Identification
 and model-based Localization in water distribution networks" Journal of Water Resources Planning and Management.
 DOI:10.1061/(ASCE)WR.1943-5452.0001535
 ```
@@ -29,11 +29,13 @@ In general, the leakage identification module performs two sequential steps:
 1. **Linear regression analysis** is performed on pairs of time series from pressure data and the residual error of the model is calculated.
 2. **Change point detection** is applied to the residual from the pairwise linear regression analysis to provide the starting times of the leaks.
 
-The final section of the [notebook](LI/2019_leakage_identification.ipynb) also provides the code used to generate the following figures in [Daniel et al. (2022)](DOI:10.1061/(ASCE)WR.1943-5452.0001535): 
+The final section of the [notebook](LI/2019_leakage_identification.ipynb) also provides the code used to generate the following figures in [Daniel et al. (2022)](DOI:10.1061/(ASCE)WR.1943-5452.0001535):
 - Fig. 3: sensitivity analysis
 - Fig. 4: comparison of residual error vs. ground truth
+- Fig. 5: exemplary residual error trajectories during leakages with annotations
 - Fig. 6: result summary for leakage time-to-detection and total lost water volume
 - Fig. 7: result summary for leakage detection distance
+- Fig. 9: study of leak-to-noise ratio and cusum hyperparameters
 - Fig. 10: time series of residual error for individual leaks used for change point detection
 
 ### Leakage Localization module
@@ -52,17 +54,17 @@ Information on the BattLeDIM can be found at the following links:
 - BattLeDIM results: https://zenodo.org/record/4139603#.X8lAfbG5p04.mendeley
 
 ## References
-LILA is fully presented and tested in [Daniel et al. (2022)](DOI:10.1061/(ASCE)WR.1943-5452.0001535): 
+LILA is fully presented and tested in [Daniel et al. (2022)](DOI:10.1061/(ASCE)WR.1943-5452.0001535):
 ```
-Daniel et al. (forthcoming) "A sequential pressure-based algorithm for data-driven Leakage Identification 
+Daniel et al. (forthcoming) "A sequential pressure-based algorithm for data-driven Leakage Identification
 and model-based Localization in water distribution networks" Journal of Water Resources Planning and Management.
 DOI:10.1061/(ASCE)WR.1943-5452.0001535
 ```
 LILA derives from an initial version of the algorithm presented in [Daniel et al. (2020)](https://doi.org/10.5281/zenodo.3924632) and used during the BattLeDIM competition: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3924632.svg)](https://doi.org/10.5281/zenodo.3924632)
 ```
-Daniel, Ivo, Pesantez, Jorge, Letzgus, Simon, Khaksar Fasaee, Mohammad Ali, Alghamdi, Faisal, Mahinthajkumar, Kumar, 
-Berglund, Emily, & Cominola, Andrea. (2020). A high-resolution pressure-driven method for leakage identification and 
-localization in water distribution networks. Zenodo. https://doi.org/10.5281/zenodo.3924632 
+Daniel, Ivo, Pesantez, Jorge, Letzgus, Simon, Khaksar Fasaee, Mohammad Ali, Alghamdi, Faisal, Mahinthajkumar, Kumar,
+Berglund, Emily, & Cominola, Andrea. (2020). A high-resolution pressure-driven method for leakage identification and
+localization in water distribution networks. Zenodo. https://doi.org/10.5281/zenodo.3924632
 ```
 
 ### LICENSE

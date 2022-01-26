@@ -16,6 +16,9 @@ matplotlib.rc('text', usetex = True)
 params= {'text.latex.preamble' : [r'\usepackage{amsmath}']}
 plt.rcParams.update(params)
 from mpl_axes_aligner import align
+from mpl_toolkits.axes_grid1 import make_axes_locatable
+
+import pickle
 
 import sklearn
 from sklearn.linear_model import LinearRegression
