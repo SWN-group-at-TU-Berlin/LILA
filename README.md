@@ -3,10 +3,10 @@ This repository contains the Leakage Identification part of **LILA - the sequent
 and model-based Localization in water distribution networks**. LILA identifies potential leakages via semisupervised linear regression of pairwise sensor pressure data and provides the location of theis nearest sensor. LILA also locates leaky pipes relying on an initial set of candidate pipes and a simulation-based optimization framework with iterative linear and mixed-integer linear programming.
 
 ### Citation
-If you use LILA or part of its code, please consider citing our paper that describes it:
+If you use LILA or part of its code, please consider citing [our paper](https://ascelibrary.org/doi/epdf/10.1061/%28ASCE%29WR.1943-5452.0001535) that describes it:
 ```
-Daniel et al. (forthcoming) "A sequential pressure-based algorithm for data-driven Leakage Identification
-and model-based Localization in water distribution networks" Journal of Water Resources Planning and Management.
+Daniel et al. (2022). A sequential pressure-based algorithm for data-driven Leakage Identification
+and model-based Localization in water distribution networks. Journal of Water Resources Planning and Management, 148(6), 04022025.
 DOI:10.1061/(ASCE)WR.1943-5452.0001535
 ```
 ### Authors
