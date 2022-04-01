@@ -5,9 +5,7 @@ and model-based Localization in water distribution networks**. LILA identifies p
 ### Citation
 If you use LILA or part of its code, please consider citing [our paper](https://ascelibrary.org/doi/epdf/10.1061/%28ASCE%29WR.1943-5452.0001535) that describes it:
 ```
-Daniel et al. (2022). A sequential pressure-based algorithm for data-driven Leakage Identification
-and model-based Localization in water distribution networks. Journal of Water Resources Planning and Management, 148(6), 04022025.
-DOI:10.1061/(ASCE)WR.1943-5452.0001535
+Daniel, I., Pesantez, J., Letzgus, S., Khaksar Fasaee, M.A., Alghamdi, F., Berglund, E., Mahinthakumar, G. and Cominola, A., 2022. A Sequential Pressure-Based Algorithm for Data-Driven Leakage Identification and Model-Based Localization in Water Distribution Networks. Journal of Water Resources Planning and Management, 148(6), p.04022025. DOI:10.1061/(ASCE)WR.1943-5452.0001535
 ```
 ### Authors
 - [Ivo Daniel](https://www.swn.tu-berlin.de/menue/team/msc_ivo_daniel/), [Andrea Cominola](https://www.swn.tu-berlin.de/menue/team/prof_dr_andrea_cominola/) - [Chair of Smart Water Networks](https://swn.tu-berlin.de) | [Technische Universität Berlin](https://tu.berlin) and [Einstein Center Digital Future, Berlin](https://digital-future.berlin) (Germany)
@@ -56,9 +54,7 @@ Information on the BattLeDIM can be found at the following links:
 ## References
 LILA is fully presented and tested in [Daniel et al. (2022)](DOI:10.1061/(ASCE)WR.1943-5452.0001535):
 ```
-Daniel et al. (forthcoming) "A sequential pressure-based algorithm for data-driven Leakage Identification
-and model-based Localization in water distribution networks" Journal of Water Resources Planning and Management.
-DOI:10.1061/(ASCE)WR.1943-5452.0001535
+Daniel, I., Pesantez, J., Letzgus, S., Khaksar Fasaee, M.A., Alghamdi, F., Berglund, E., Mahinthakumar, G. and Cominola, A., 2022. A Sequential Pressure-Based Algorithm for Data-Driven Leakage Identification and Model-Based Localization in Water Distribution Networks. Journal of Water Resources Planning and Management, 148(6), p.04022025. DOI:10.1061/(ASCE)WR.1943-5452.0001535
 ```
 LILA derives from an initial version of the algorithm presented in [Daniel et al. (2020)](https://doi.org/10.5281/zenodo.3924632) and used during the BattLeDIM competition: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3924632.svg)](https://doi.org/10.5281/zenodo.3924632)
 ```
